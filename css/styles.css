@@ -1,0 +1,159 @@
+
+.link {
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+
+.logo-part1 {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33;
+display: flex;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.logo-part2 {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1,33;
+display: flex;
+text-transform: uppercase;
+color: #2E2F42;
+}
+
+.menu-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+color: #2E2F42;
+}
+
+.comtact-phone-number {
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+color: #434455;
+}
+
+.contact-email {
+font-family: 'Roboto'sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+color: #434455;
+
+}
+
+.modal-btn {
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,19;
+display: flex;
+color: #FFFFFF;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+
+.hero {
+background: #2E2F42;
+}
+
+.hero-text {
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 56px;
+line-height: 1,07;
+color: #FFFFFF;
+}
+
+.title-h2 {
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1,11;
+color: #2E2F42;
+}
+
+.title-h3 {
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1,2;
+color: #2E2F42;
+}
+
+.title-h3-text {
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,2;
+color: #434455;
+}
+
+.our-team {
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 20px;
+line-height: 1.2;
+color: #2E2F42;
+}
+
+.team-about {
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+
+.footer {
+background: #2E2F42;
+}
+
+.footer-text {
+font-family: 'Roboto' sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+color: #E7E9FC;
+}
+
+.logo-footer-part1 {
+font-family: 'Raleway' sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.13;
+color: #4D5AE5;
+}
+
+.logo-footer-part2 {
+font-family: 'Raleway' sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,13;
+color: #F4F4FD;
+}
+
+.btm-filters {
+cursor: pointer;
+font-family: 'Roboto' sans-serif;
+font-weight: 600;
+font-size: 16px;
+line-height: 1,5;
+color: #4D5AE5;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+
