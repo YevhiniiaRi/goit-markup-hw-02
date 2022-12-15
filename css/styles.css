@@ -1,118 +1,149 @@
+/*  вторичный цвет текста #434455 */
+/* вторичные цвета фона #FFFFFF #F4F4FD  */
+/* акцент #4D5AE5 */
+
+.root {
+--primary-text-color: #2E2F42;
+--title-text-color: #434455;
+--accent-color: #4D5AE5;
+--background-header: #FFFFFF;
+--footer-text: #E7E9FC;
+}
+
+.page {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+color: #2E2F42;  
+background: #E5E5E5; 
+}
 
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .list{
-    list-style: none;
+list-style: none;
+}
+ /* --------------------HEADER-------------------- */
+.page-header {
+background: #FFFFFF;
 }
 
-
-.logo-part1 {
-font-family: 'Raleway';
+.logo {
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1,33;
-display: flex;
+line-height: 1.33;
+letter-spacing: 0.03em;
 text-transform: uppercase;
+color: #2E2F42;
+text-decoration: none;
+}
+
+.logo-web {
 color: #4D5AE5;
 }
 
-.logo-part2 {
-font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 1,33;
-display: flex;
-text-transform: uppercase;
+.page-nav .link {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.5;
 color: #2E2F42;
 }
 
-.menu-link {
-font-family: 'Roboto', sans-serif;
-font-weight: 600;
-font-size: 16px;
-line-height: 1,5;
-color: #2E2F42;
-}
-
-.comtact-phone-number {
-font-family: 'Roboto' sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-color: #434455;
+.page-nav .link:hover, 
+.page-nav .link:focus {
+color: #4D5AE5;
 }
 
 .contact-email {
-font-family: 'Roboto'sans-serif;
-font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: #434455;
-
 }
 
-.modal-btn {
-font-family: 'Roboto' sans-serif;
-font-weight: 600;
+.contact-phone-number {
 font-size: 16px;
-line-height: 1,19;
-display: flex;
-color: #FFFFFF;
-background-color: #4D5AE5;
-cursor: pointer;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
+
+.contact-email:hover,
+.contact-email:focus {
+color: #4D5AE5
+}
+
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+color: #4D5AE5;
+}
+
+/* ---------------------HERO------------------ */
 
 .hero {
 background: #2E2F42;
 }
 
-.hero-text {
-font-family: 'Roboto' sans-serif;
-font-weight: 600;
+.hero-title {
+font-weight: 700;
 font-size: 56px;
-line-height: 1,07;
+line-height: 1.07;
+letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 
-.title-h2 {
-font-family: 'Roboto' sans-serif;
+.modal-btn {
+background: #4D5AE5;
 font-weight: 600;
-font-size: 36px;
-line-height: 1,11;
-color: #2E2F42;
-}
-
-.title-h3 {
-font-family: 'Roboto' sans-serif;
-font-weight: 600;
-font-size: 20px;
-line-height: 1,2;
-color: #2E2F42;
-}
-
-.title-h3-text {
-font-family: 'Roboto' sans-serif;
-font-weight: 400;
 font-size: 16px;
-line-height: 1,2;
-color: #434455;
+line-height: 1.19;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
 }
 
-.our-team {
-font-family: 'Roboto' sans-serif;
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.section-team {
+background: #F4F4FD;
+}
+
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.list-title {
 font-weight: 600;
 font-size: 20px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 color: #2E2F42;
 }
 
-.team-about {
-font-family: 'Roboto' sans-serif;
-font-weight: 400;
+.text {
 font-size: 16px;
 line-height: 1.5;
+letter-spacing: 0.02em;
 color: #434455;
 }
 
@@ -121,39 +152,33 @@ background: #2E2F42;
 }
 
 .footer-text {
-font-family: 'Roboto' sans-serif;
-font-weight: 400;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
+letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 
-.logo-footer-part1 {
-font-family: 'Raleway' sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.13;
-color: #4D5AE5;
-}
-
-.logo-footer-part2 {
-font-family: 'Raleway' sans-serif;
-font-weight: 800;
-font-size: 18px;
-line-height: 1,13;
+.logo-studio-footer {
 color: #F4F4FD;
 }
 
 .btm-filters {
 cursor: pointer;
-font-family: 'Roboto' sans-serif;
-font-weight: 600;
+font-weight: 700;
 font-size: 16px;
-line-height: 1,5;
+line-height: 1.5;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
 color: #4D5AE5;
 background: #F4F4FD;
 border: 1px solid #E7E9FC;
 border-radius: 4px;
 }
 
+.btm-filters:hover,
+.btm-filters:focus {
+background: #4D5AE5;
+color: #FFFFFF;
+}
 
